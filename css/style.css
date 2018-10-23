@@ -4,7 +4,7 @@
 
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
-    font-size: 12PT;
+    font-size: 12pt;
 }
 
 body {
@@ -25,8 +25,13 @@ h4 {}
     grid-column: 2/5
 }
 
+.image {
+    padding-right: 20%;
+}
+
 .grid--content_firstColumn {
     grid-column: 2/3;
+    /* border: 1px solid black; */
 }
 
 .grid--content_secondColumn {
@@ -37,8 +42,29 @@ h4 {}
     grid-column: 4/5
 }
 
+#background--home {
+    height: 400px;
+    background-image: url("https://picsum.photos/1170/500");
+}
+
 .grid--fullview {
     grid-column: 1/-1;
+}
+
+.center--elements {
+    padding: 10% 20%;
+}
+
+.introduction {
+    color: white;
+}
+
+#donate {
+    text-align: center;
+}
+
+.btn--center {
+    text-align: center;
 }
 
 #nav {}
@@ -46,19 +72,20 @@ h4 {}
 .menu--list {}
 
 #logo {
-    max-width: 25%;
+    max-width: 10%;
 }
 
 .menu--item {
     float: right;
     margin-right: 10px;
+    margin-top: 15px;
 }
 
 .link--item {
-    /* padding: 10px 10px; */
-    border: 1px solid black;
+    padding: 5px 10px;
+    /* border: 1px solid black; */
     border-radius: 6px;
-    background-color: rgb(58, 165, 232);
+    background-color: #37A73E;
     color: white;
 }
 
@@ -70,3 +97,5 @@ li {
 a {
     text-decoration: none;
 }
+
+;
