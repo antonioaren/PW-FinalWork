@@ -59,6 +59,8 @@ h4 {}
     color: white;
 }
 
+.btn--style {}
+
 #donate {
     text-align: center;
 }
@@ -87,6 +89,12 @@ h4 {}
     border-radius: 6px;
     background-color: #37A73E;
     color: white;
+}
+
+.link--item:hover {
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
 }
 
 li {
