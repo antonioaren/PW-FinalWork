@@ -25,6 +25,20 @@ h4 {}
     grid-column: 2/5
 }
 
+.grid--content--animals {
+    grid-column: 2/5    
+}
+
+.subgrid {
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    grid-gap: 20px;
+}
+
+.fill--up {
+   
+}
+
 .image {
     padding-right: 20%;
 }
