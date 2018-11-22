@@ -10,10 +10,6 @@ function getDataFromForm() {
         console.log("Valores no validos");
         return;        
     }
-
-    
-    
-
 }
 
 function validation(user) {
@@ -34,8 +30,7 @@ function validation(user) {
     return true;        
 }
 
-function sendToServer(user) {
-    
+function sendToServer(user) {    
 }
 
 function gotToPlants () {
