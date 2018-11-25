@@ -1,0 +1,20 @@
+[
+    {
+        "name": "pruebas 1",
+        "email" : "pruebas1@gmail.com",
+        "pass" : "1234",
+        "tel" : "928282828"
+    },
+    {
+        "name": "pruebas 2",
+        "email" : "pruebas2@gmail.com",
+        "pass" : "1234",
+        "tel" : "928282828"
+    },
+    {
+        "name": "pruebas 3",
+        "email" : "pruebas3@gmail.com",
+        "pass" : "1234",
+        "tel" : "928282828"
+    }
+]

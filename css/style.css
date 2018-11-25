@@ -21,6 +21,7 @@ h4 {}
     grid-template-columns: 1fr 300px 300px 300px 1fr;
 }
 
+
 .grid--content {
     grid-column: 2/5
 }
@@ -58,7 +59,11 @@ h4 {}
 
 #background--home {
     height: 400px;
-    background-image: url("https://picsum.photos/1170/500");
+    background-image: url("https://picsum.photos/1170x463");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -500px;
+
 }
 
 .grid--fullview {
@@ -119,5 +124,16 @@ li {
 a {
     text-decoration: none;
 }
+.grid--content-details {
+    grid-column: 1/-1
+}
 
-;
+#plant--card .card, #animal--card .card {
+    text-align: center
+}
+#plant--card img, #animal--card img{
+    max-height: 200px;
+    max-width: 200px;
+    position: relative;
+    left: calc(50% - 100px);
+}

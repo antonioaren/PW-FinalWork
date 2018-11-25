@@ -1,24 +1,23 @@
+//Cargamos todos los datos a través de JQuery
 initReload();
 
 function initReload() {
-    let animales = [
-        {
-            nombre: "flufy",
-            raza: "Pastor" 
-        }
-    ];
-    
-    for (let values = 0; values <12; values++) {
-        $(".fill--up").append(`
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="https://picsum.photos/210px18${values}/" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Ver Detalle</a>
-            </div>
-        </div>       
-        `);
-    }
 
+    $.get('/data/plants.json')
+        .then(plants => {
+            plants.forEach(plant => {
+                $("#plants--cards").append(`
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://picsum.photos/210x18${plant.id}" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">${plant.name}</h5>
+                            <p class="card-text">${plant.summary}</p>
+                            <a href="/plant.html?id=${plant.id}" class="btn btn-primary">Ver Detalle</a>
+                    </div>
+                </div>       
+                `);
+
+            });
+
+        })
 }

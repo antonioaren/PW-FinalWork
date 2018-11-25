@@ -1,26 +1,38 @@
 [
   {
+    "id": 0,
     "name": "Meowsy",
+    "picture": "cat.jpg",
     "species" : "cat",
     "foods": {
       "likes": ["tuna", "catnip"],
       "dislikes": ["ham", "zucchini"]
-    }
+    },
+    "summary" : "The best cat in canary islands",
+    "description" : "A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very long description about Meowsy"
   },
   {
+    "id" : 1,
     "name": "Barky",
+    "picture": "dog.jpg",
     "species" : "dog",
     "foods": {
       "likes": ["bones", "carrots"],
       "dislikes": ["tuna"]
-    }
+    },
+    "summary" : "A commom dog",
+    "description" : "A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very long description about Barky"
   },
   {
+    "id" : 2,
     "name": "Purrpaws",
-    "species" : "cat",
+    "picture": "frog.jpg",
+    "species" : "frog",
     "foods": {
       "likes": ["mice"],
       "dislikes": ["cookies"]
-    }
+    },
+    "summary" : "The frog that kissed the princess",
+    "description" : "A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very A very very long description about Purrpaws"
   }
 ]
