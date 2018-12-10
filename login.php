@@ -9,7 +9,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     <link rel="stylesheet" href="/css/style.css">
-    <title>Join Us!</title>
+    <title>Login</title>
 
 </head>
 
@@ -18,13 +18,13 @@
         <nav id="navbar">
             <ul class="menu--list">
                 <li>
-                    <a href="./index.html"><img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Animal_Planet.png/1600px-Animal_Planet.png"
+                    <a href="./index.php"><img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Animal_Planet.png/1600px-Animal_Planet.png"
                             alt="Logo"></a>
                 </li>
-                <li class="menu--item"><a class="link--item" href="./login.html">Login</a></li>
-                <li class="menu--item"><a class="link--item" href="./joinus.html">Join us!</a></li>
-                <li class="menu--item"><a class="link--item" href="./plants.html">Plants</a></li>
-                <li class="menu--item"><a class="link--item" href="./animals.html">Animals </a></li>
+                <li class="menu--item"><a class="link--item" href="./login.php">Login</a></li>
+                <li class="menu--item"><a class="link--item" href="./joinus.php">Join us!</a></li>
+                <li class="menu--item"><a class="link--item" href="./plants.php">Plants</a></li>
+                <li class="menu--item"><a class="link--item" href="./animals.php">Animals </a></li>
             </ul>
         </nav>
     </header>
@@ -32,26 +32,11 @@
 
 
     <section class="grid--content">
-        <h2 id="title-form" style="text-align:center">Rellena para registrarte</h2>
-        <form id="form1" onsubmit="getDataFromForm(event)">
-            <div class="form-group">
-                <label for="exampleInputName1">Name</label>
-                <input id="name" type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp"
-                    placeholder="Enter your name">
-            </div>
-            <div class="form-group">
-                <label for="exampleInputTel1">Telephone</label>
-                <input id="tel" type="tel" class="form-control" id="exampleInputTel1" aria-describedby="telHelp"
-                    placeholder="Enter your Telephone">
-            </div>
+        <h2 id="title-form2" style="text-align:center">Accede a nuestra web</h2>
+        <form id="form2" onsubmit="loginForm(event)">
             <div class="form-group">
                 <label for="exampleInputEmail1">Email</label>
                 <input id="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="Enter email">
-            </div>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Confirm Email </label>
-                <input id="email_confirm" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                     placeholder="Enter email">
             </div>
             <div class="form-group">
@@ -79,7 +64,6 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <script src="/js/index.js"></script>
 </body>

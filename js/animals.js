@@ -12,7 +12,7 @@ function initReload() {
                     <div class="card-body">
                         <h5 class="card-title">${animal.name}</h5>
                             <p class="card-text">${animal.summary}</p>
-                            <a href="/animal.html?id=${animal.id}" class="btn btn-primary">Ver Detalle</a>
+                            <a href="/animal.php?id=${animal.id}" class="btn btn-primary">Ver Detalle</a>
                     </div>
                 </div>       
                 `);

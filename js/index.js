@@ -45,12 +45,12 @@ function sendToServer(userData) {
 }
 
 function gotToPlants() {
-    location.href = "/plants.html";
+    location.href = "/plants.php";
 }
 
 
 function goToAnimals() {
-    location.href = "/animals.html";
+    location.href = "/animals.php";
 }
 
 function loginForm(e) {
@@ -85,8 +85,8 @@ function removeForm(userData) {
     $('#form1').html('');
     $('h2#title-form').html('');
     $('#title-form').append(`<b> Welcome to the web ${userData.name}`);
-    $('a[href="./joinus.html"]').text(`Hi ${userData.name} !`);
-    $('a[href="./login.html"]').text('logout')
+    $('a[href="./joinus.php"]').text(`Hi ${userData.name} !`);
+    $('a[href="./login.php"]').text('logout')
         .click(e => localStorage.removeItem('userData'))
 }
 

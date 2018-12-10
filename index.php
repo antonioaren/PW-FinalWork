@@ -18,13 +18,13 @@
         <nav id="navbar">
             <ul class="menu--list">
                 <li>
-                    <a href="./index.html"><img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Animal_Planet.png/1600px-Animal_Planet.png"
+                    <a href="./index.php"><img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Animal_Planet.png/1600px-Animal_Planet.png"
                             alt="Logo"></a>
                 </li>
-                <li class="menu--item"><a class="link--item" href="./login.html">Login</a></li>
-                <li class="menu--item"><a class="link--item" href="./joinus.html">Join us!</a></li>
-                <li class="menu--item"><a class="link--item" href="./plants.html">Plants</a></li>
-                <li class="menu--item"><a class="link--item" href="./animals.html">Animals </a></li>
+                <li class="menu--item"><a class="link--item" href="./login.php">Login</a></li>
+                <li class="menu--item"><a class="link--item" href="./joinus.php">Join us!</a></li>
+                <li class="menu--item"><a class="link--item" href="./plants.php">Plants</a></li>
+                <li class="menu--item"><a class="link--item" href="./animals.php">Animals </a></li>
             </ul>
         </nav>
     </header>
@@ -32,7 +32,7 @@
     <section id="background--home" class="grid--fullview">
 
         <article class="center--elements">
-            <p class="introduction">
+            <p class="introduction bckgrnd-introdution">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni alias temporibus enim, eius perspiciatis
                 eaque iste earum reiciendis soluta officiis cum fugiat corporis voluptatem velit ab ea libero veniam
                 veritatis.
@@ -45,7 +45,6 @@
         </article>
 
     </section>
-
 
     <section id="statist 1" class="grid--content_firstColumn">
         <h2>grafico 1</h2>
@@ -69,14 +68,9 @@
         </div>
     </section>
 
-
-
-
     <footer class="grid--content" id="footer" style="text-align:right">
         <small>realizado por © Pedro Arenas </small>
     </footer>
-
-
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

@@ -16,11 +16,11 @@
         <nav id="navbar">
             <ul class="menu--list">
                 <li>
-                    <a href="./index.html"><img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Animal_Planet.png/1600px-Animal_Planet.png" alt="Logo"></a>
-                </li> <li class="menu--item"><a class="link--item" href="./login.html">Login</a></li> 
-                <li class="menu--item"><a class="link--item" href="./joinus.html">Join us!</a></li> 
-                <li class="menu--item"><a class="link--item" href="./plants.html">Plants</a></li>
-                <li class="menu--item"><a class="link--item" href="./animals.html">Animals </a></li>
+                    <a href="./index.php"><img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Animal_Planet.png/1600px-Animal_Planet.png" alt="Logo"></a>
+                </li> <li class="menu--item"><a class="link--item" href="./login.php">Login</a></li> 
+                <li class="menu--item"><a class="link--item" href="./joinus.php">Join us!</a></li> 
+                <li class="menu--item"><a class="link--item" href="./plants.php">Plants</a></li>
+                <li class="menu--item"><a class="link--item" href="./animals.php">Animals </a></li>
             </ul>
         </nav>
     </header>

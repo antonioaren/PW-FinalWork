@@ -36,10 +36,6 @@ h4 {}
     grid-gap: 20px;
 }
 
-.fill--up {
-   
-}
-
 .image {
     padding-right: 20%;
 }
@@ -59,7 +55,7 @@ h4 {}
 
 #background--home {
     height: 400px;
-    background-image: url("https://picsum.photos/1170x463");
+    background-image: url("https://picsum.photos/1170x462");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center -500px;
@@ -76,6 +72,14 @@ h4 {}
 
 .introduction {
     color: white;
+    
+}
+
+.bckgrnd-introdution {
+    background-color: black;
+    opacity: 0.8;
+    padding: 40px;
+    margin-top: -70px;
 }
 
 .btn--style {}
