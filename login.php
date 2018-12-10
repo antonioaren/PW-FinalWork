@@ -13,6 +13,10 @@
 
 </head>
 
+<?php
+ require('conexion.php');
+?>
+
 <body class="wrapper">
     <header id="nav" class="grid--content">
         <nav id="navbar">
@@ -30,24 +34,29 @@
     </header>
 
 
+<!-- onsubmit="loginForm(event)" -->
+
+    <?php 
+    
+       
+
+    ?>
 
     <section class="grid--content">
         <h2 id="title-form2" style="text-align:center">Accede a nuestra web</h2>
-        <form id="form2" onsubmit="loginForm(event)">
+        <form id="form2" method="POST" action="login.php" >
             <div class="form-group">
-                <label for="exampleInputEmail1">Email</label>
-                <input id="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                <label for="exampleInputEmail1">Email</label> 
+                <input id="email" type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                     placeholder="Enter email">
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Password</label>
-                <input id="pass" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                <input id="pass" type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
             </div>
 
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
-
-
 
     </section>
 
